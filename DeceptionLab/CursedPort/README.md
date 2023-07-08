@@ -1,5 +1,8 @@
 # CursedPort
 ## Instructions
+<p align="right">
+    <img width="512px" src="https://github.com/ZedUnknown/Cyber-Deception-Tools/blob/main/DeceptionLab/CursedPort/img/img.png" alt="Image">
+</p>
 Please provide the URLs in a list format. Each URL should be listed on a separate line without any additional formatting or prefixes, such as 'http://' or 'https://'. Simply list the domain name itself. 
 
 _For example:_  
