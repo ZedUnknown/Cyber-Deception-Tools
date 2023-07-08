@@ -125,7 +125,8 @@ def RunServer():
     # sys.argv[1] == script.py argv1
     name = os.path.basename(sys.argv[0])
     if '-h' in sys.argv or '--help' in sys.argv:
-        print(f"Without File: {name}\nWith File: {name} -f FILE_NAME")
+        os.system('cls' if os.name == 'nt' else 'clear')
+        print(f"[==[Usage]==]\n\n> Without File: {name}\n> With File: {name} -f FILE_NAME")
         exit()
         
     # Using len it helps to solve problem whether user run the script with word python or not
@@ -157,5 +158,3 @@ def RunServer():
         
 if __name__ == '__main__':
     RunServer()
-    
-    
