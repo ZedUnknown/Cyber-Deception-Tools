@@ -26,7 +26,7 @@ D:\Documents\staff.docx
 1. Clone or Download the Repository:
 
    ```shell
-   git clone https://github.com/ZedUnknown/Cyber-Deception-Tools/upload/main/DeceptionLab/DataReaper
+   git clone https://github.com/ZedUnknown/Cyber-Deception-Tools/upload/main/DeceptionLab/DataReaper.git
 
 ### Usage
 Use the following command-line options:
