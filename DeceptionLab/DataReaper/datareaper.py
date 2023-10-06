@@ -6,7 +6,7 @@ def secureDelete(_path):
     try:
         # Check if the provided path is a file
         if os.path.isfile(_path):
-            with open(_path, mode='wb') as file:
+            with open(_path, mode='wb') # Open file in binary format as file:
                 size = os.path.getsize(_path)
                 generate = bytearray(os.urandom(size))
                 file.write(generate)
